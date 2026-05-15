@@ -10,30 +10,8 @@
 
 
 		<classes>
-			<class name="com.yptech.web.tests.BaseTest" />
 			<class name="com.yptech.web.tests.LoginPageTest" />
+			<class name="com.yptech.web.tests.ProductsPageTest" />
 		</classes>
 	</test>
-
-	<!--<test name="Amazon Test">
-		<parameter name="url" value="https://www.amazon.com" />
-		<parameter name="browser" value="firefox" />
-
-
-		<classes>
-			<class name="testngsessions.AmazonTest" />
-		</classes>
-	</test>
-
-	<test name="OpenCart Test">
-		<parameter name="url"
-			value="https://naveenautomationlabs.com/opencart/" />
-		<parameter name="browser" value="safari" />
-
-
-		<classes>
-			<class name="testngsessions.OpenCartTest" />
-		</classes>
-	</test>-->
-
 </suite>
