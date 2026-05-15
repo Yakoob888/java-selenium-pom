@@ -10,7 +10,6 @@ public class ProductsPageTest extends BaseTest{
 
 	@BeforeClass
 	public void productsPageSetup() {
-		props = factory.initProperties();
 		productsPage = loginPage.doLogin(props.getProperty(AppConstants.USER_NAME), props.getProperty(AppConstants.PASSWORD));
 	}
 	

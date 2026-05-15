@@ -3,8 +3,8 @@ package com.yptech.web.tests;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import com.yptech.web.factory.DriverFactory;
 import com.yptech.web.pages.LoginPage;
@@ -18,7 +18,7 @@ public class BaseTest {
 	protected LoginPage loginPage;
 	protected ProductsPage productsPage;
 	
-	@BeforeTest
+	@BeforeClass
 	//@Parameters({"browserName"})
 	public void setup(/* String browserName */) {
 		factory = new DriverFactory();
@@ -27,7 +27,7 @@ public class BaseTest {
 		loginPage = new LoginPage(driver);
 	}
 	
-	@AfterTest
+	@AfterClass
 	public void tearDown() {
 		driver.quit();
 	}
