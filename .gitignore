@@ -1,0 +1,14 @@
+/target/
+/bin/
+/.idea/
+/.settings/
+/project
+/classpath
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+allure-results/
+allure-report/
+/test-output/
